@@ -1,0 +1,40 @@
+body {
+	background-color: coral;
+}
+
+button {
+	height: 25px;
+	width: 75px;
+}
+
+.container {
+	background: white;
+	height: 700px;
+	width: 700px;
+	margin: auto;
+	position: relative;
+	resize: vertical;
+	overflow: auto;
+}
+
+.content {
+	position: absolute;
+	margin: auto;
+	height: 400px;
+	width: 400px;
+	top: 50%;
+	left: 20px;
+	right: 20px;
+	background: black;
+	color: white;
+	padding: 20px;
+	transform: translateY(-50%);
+	resize: vertical;
+	overflow: auto;
+	text-align: center;
+}
+
+#finalResult {
+	font-weight: bold;
+	color: red;
+}
